@@ -1,0 +1,338 @@
+/*
+Theme Name: BlogTheme
+Theme URI: https://themesbazar.com/blogtheme/
+Author: The ThemesBazar Team
+Author URI: https://themesbazar.com/
+Description: blogtheme brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blogtheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use
+
+/* Base CSS */
+
+@font-face {
+    font-family: 'SolaimanLipiNormal';
+    src: url('fonts/solaiman-lipi.eot');
+    src: url('fonts/solaiman-lipi.eot') format('embedded-opentype'),
+         url('fonts/solaiman-lipi.woff') format('woff'),
+         url('fonts/solaiman-lipi.ttf') format('truetype'),
+         url('fonts/solaiman-lipi.svg#SolaimanLipiNormal') format('svg');
+	
+	font-weight:normal;font-style:normal;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+
+}
+html,
+body { height: 100% }
+body {
+	background-color:#F6F6F5;
+	font-family: SolaimanLipiNormal;	
+	
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.full_website{
+    background-color: #F6F6F5;
+	padding:0px;
+}
+
+.date_social{
+    margin: 0px 0px;
+	padding:0px;
+	font-size:18px;
+}
+.social{
+    text-align: right;
+    font-size: 20px;
+}
+
+.border{
+    border-bottom: 2px solid #020989;
+}
+
+.full_images img{
+	width:100%;
+	height:auto;
+}
+
+.logo img{
+	padding:10px ;
+}
+
+.bannar img{
+	padding:20px ;
+}
+#nav{
+	padding:0px 0px 10px 0px;
+	background-color:#F6F6F5;
+}
+.images_title-02 img{
+	float:left;
+	width:30%;
+	margin:5px 5px 0px 0px;
+	overflow:hidden;
+	clear:buth
+}
+.collapse{
+	background-color:#05668A;
+}
+
+.feature_section{
+	background-color:#FFFFFF;
+	margin-top:10px;
+}
+
+.featurecontent{
+	padding-top:10px;
+	margin-bottom:10px;
+	
+}
+
+.feature_content div h2 a{
+	text-decoration:none;
+	color:#000000;
+	font-size:22px;
+	line-height:25px;
+	padding-left:5px;
+}
+
+.feature_content div h2 a:hover{
+	color:#05668A;
+}
+
+.info{
+	color:#000000;
+	font-size:16px;
+	padding-left:5px;
+}
+
+/* Tab============================ */
+
+.nav-tabs li{
+	background-color:#FEEADE;
+}
+
+.tab-content{
+	overflow: scroll;
+	height: 360px;
+    overflow-x: hidden;
+	background-color:#F1F0DE;
+}
+
+.tab-pane div{
+	border-bottom:1px solid #999999;
+	background-color:#F1F0DE;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+.tab-pane div h3 a{
+	text-decoration:none;
+	color:#000000;
+	font-size:18px;
+	}
+	
+.tab-pane div h3 a:hover{
+	color:#05668A;
+}
+
+
+
+/* Single Page ========================= */
+
+.singlepage{
+   margin: 60px 0px;
+}
+
+.single_images{
+    
+}
+.single_title{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px;
+
+}
+.single_images img{
+    width: 100%
+}
+.caption{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: black;
+    opacity: .4;
+    color: white;
+}
+.caption h4{
+    opacity: 10;
+}
+.single_details p{
+    text-align: justify;
+}
+
+
+/* Archive Page ========================= */
+
+.archive_details{
+    border-bottom: 2px solid #737070;
+    border-left: 5px solid #8C0303;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+.archive_details img{
+    float: left;
+    width: 20% !important;
+    margin-right: 20px;
+}
+
+
+
+.cat-section{
+	padding-top:10px;
+}
+.cat-03{
+	background-color:#fff;
+	margin-top:10px;
+	overflow:hidden;
+	z-index:1;
+	
+}
+.special-padding{	
+	padding:10px;
+}
+.catagory_title{
+    background-color: #05668A; 
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+	text-align:center;
+}
+.catagory_title a{
+	color: #FFFFFF;
+	
+}
+.catagory_title a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.heading_01{
+    font-size: 23px ;
+	padding-left:5px;
+    font-weight: normal;
+    line-height: 26px;;  
+}
+.heading_01 a{
+    color: #060405;
+}
+.heading_01 a:hover{
+    color:#23527C;
+}
+.heading_02{
+
+    font-size: 21px ;
+	padding-left:5px;
+    font-weight: normal;
+    line-height: 24px;  
+}
+.heading_02 a{
+    color: #060405;
+}
+.heading_02 a:hover{
+    color:#23527C;
+}
+.heading_03{
+	font-size:17px;
+	line-height:20px;
+	padding:5px;
+}
+.images_title{
+    overflow: hidden;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #CFD3D5;
+    padding-bottom: 6px;
+}
+.images_title img{
+    float: left;
+    width: 30%;
+    margin-right:15px;
+	
+}
+.catdown{
+	margin-top:10px;
+	background-color:#F6F6F5;
+}
+.copyright{
+    font-size: 16px;
+	text-align:center;
+}
+.footer-04{
+	background:#088FC1;
+	padding: 1%;
+	color:#FFF;	
+	
+}
+.footer-04 a{
+	color:#FFF;	
+	
+}
+.footer {
+    border-bottom:2px solid#fff;
+	color:#FFF;
+	background: #05668A;
+    padding: 30px 10px ;
+		text-align:center;
+		font-size:16px;
+		line-height:20px;
+}
+
+.copyright{
+    font-size: 16px;
+	float:left;
+}
+.design{
+    text-align: right;
+    font-size: 16px;
+}
+.design a{
+    color: #F0F0F0;
+}
+.design a:hover{
+    color:firebrick;
+}
+.facebook{
+    width:100%;
+    height:200px;
+}
